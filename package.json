@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "openclaw gateway --port 3000"
+    "start": "openclaw gateway --port $PORT --allow-unconfigured"
   },
   "keywords": [],
   "author": "",
