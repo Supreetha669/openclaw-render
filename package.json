@@ -4,13 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "openclaw gateway run --port 3001 --bind lan --allow-unconfigured"
+    "start": "openclaw gateway --port $PORT --allow-unconfigured"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "dependencies": {
-    "openclaw": "^2026.2.24"
+    "openclaw": "^2026.2.24",
+    "package-name": "^0.1.0"
   }
 }
