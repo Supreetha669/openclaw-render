@@ -1,10 +1,13 @@
+Use this exact `package.json`:
+
+```json
 {
   "name": "openclaw-render",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "openclaw gateway --port $PORT --allow-unconfigured"
+    "start": "openclaw gateway run --port $PORT --bind lan --allow-unconfigured"
   },
   "keywords": [],
   "author": "",
@@ -14,3 +17,4 @@
     "openclaw": "^2026.2.24"
   }
 }
+```
