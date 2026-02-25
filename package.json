@@ -2,7 +2,7 @@
   "name": "openclaw-render",
   "version": "1.0.0",
   "scripts": {
-    "start": "openclaw gateway run --dev --port $PORT --bind lan --allow-unconfigured --ws-log compact"
+    "start": "openclaw gateway run --port $PORT --bind 0.0.0.0 --ws-log compact"
   },
   "dependencies": {
     "openclaw": "^2026.2.24"
