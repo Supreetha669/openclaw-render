@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "openclaw gateway run --port $PORT --bind lan --allow-unconfigured"
+    "start": "openclaw gateway run --dev --port $PORT --bind lan --allow-unconfigured --verbose --ws-log compact"
   },
   "keywords": [],
   "author": "",
